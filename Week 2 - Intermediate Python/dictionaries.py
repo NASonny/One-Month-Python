@@ -2,10 +2,10 @@
 # states = ['New York', 'Pennsylvania', 'California']
 # states = ['New York', 'NY', 'Pennsylvania', 'PA', 'California', 'CA']
 
-# How to create a dictionarie
+# How to create a Dictionaries
 states = {'NY': 'New York', 'PA': 'Pennsylvania', 'CA': 'California'}
 
-#with print(states['NY']) we are go in to check the values of the key 'NY' so in this case this is New York
+#with print(states['NY']) we are going in to check the values of the key 'NY' so in this case this is New York.
 print(states['NY'])
 
 print(type(states))
@@ -19,13 +19,13 @@ print(states.values())
 states['FL'] = 'Florida'
 print(states)
 
-# The use of dictionnaries is to be more precise than an list because we don't know what is the values of what in a list 
+# The use of dictionaries is to be more precise than a list because we don't know what is the values of what in a list.
 # user = ['Mattan', 70, 10.5, 'Brown', 'Brown']
 user = {'name': 'Mattan', 'height': 70, 'shoe size': 10.5, 'hair': 'Brown', 'eyes': 'Brown'}
 
 print(user['name'])
 
-# Dictionaries and lists can be insinde of each other 
+# Dictionaries and lists can be inside of each other.
 
 animal_sounds = {
     "cat": ["Meow", "purr"],

@@ -20,6 +20,7 @@ for i in range(1, 101):
         continue
     print(i)
 # The "continue" is needed to replace the number by the print
+
 ########### ########### ###########
 
 ########### Real Solution and the best i think ###########

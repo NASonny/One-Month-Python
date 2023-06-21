@@ -3,16 +3,15 @@ the_count = [1, 2, 3, 4 , 5 , 6]
 stocks = ["AAPL", "GOOG", "TSLA",]
 random_things = ["Puppies", 55, 0, "Hello World", 1*2, 1/3]
 
-# this for-loop goes through a list
+# This for-loop goes through a list
 for number in the_count:
     print("this is a count", number)
 
-# same as above
+# Same as above
 for stock in stocks:
     print("Stock ticker:", stock)
 
-#we can go through mixel lists too
-#I called it i (short for item) since I don't know what's in it
+# I called it i (short for item) since I don't know what's in it
 for i in random_things:
     print("Here's a random thing:", i)
     

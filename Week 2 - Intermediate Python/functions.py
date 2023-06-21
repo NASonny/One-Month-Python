@@ -8,7 +8,7 @@ def age_in_dog_years(age):
     result = age * 7
     return result
 
-# Be sure to give the right number of argument to not give too much or less than necessary 
+# Be sure to give the right number of arguments to not give too much or less than necessary 
 print(greet("Epitech"))
 print(greet("Chris"))
 
@@ -16,7 +16,7 @@ print(concatenate("Hello", " World!"))
 # If you precise you can switch the word 
 print(concatenate(word_two='Mattan', word_one="Griffel"))
 
-#if you don't return correctly python just gonna say None to the result when you print it 
+# If you don't return correctly, Python just are saying going None to the result when you print it
 print(age_in_dog_years(20))
 
 """
