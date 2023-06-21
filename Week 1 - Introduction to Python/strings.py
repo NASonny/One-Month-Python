@@ -1,4 +1,4 @@
-#Strings are text surrounded by quotes
+# Strings are text surrounded by quotes
 # Both single ('') or double ("") or triple  (""") quotes are used 
 # Examples : "dinosaurs", '8461185' , "I'm Lovin' it!"
 
@@ -36,7 +36,7 @@ teddy_bear_fee = 121.8
 total = orphan_fee + teddy_bear_fee
 
 
-#We can use f before double quotes to use bracket to get the variables in the quotes so there is no need to leave the quotes to use variable 
+#We can use f before double quotes to use bracket to get the variables in the quotes so there is no need to leave the quotes to use a variable 
 print(f"{name} the total will be {total:.2f}")
-#:.2f is for the matter of the float so we gonna get just 2 number after the dot 
+#:.2f are for the matter of the float, so we are going to get just two numbers after the dot.
 
